@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript on Steroids</title>
+</head>
+<body>
+    <div class="cen">
+        <h2>Challenge 1: Your age in days</h2>
+     <div class="btn">
+        <button class="one" onclick="ageindays()">click me</button>
+        <button class="two" onclick="reset()">reset</button>
+     </div> 
+     
+     
+    <div class="result">
+        <div id="result-area">
+            
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <h2>Chalenge 2: rock, paper, scissors</h2>
+        <div class="flex-box-rps" id="flex-box-div">
+            <img src="rock1.jpg" alt="rock" id="rock" width="150" height="150" onclick="rpsGame(this)">
+            <img src="paper.jpg" alt="paper" id="paper" width="150" height="150" onclick="rpsGame(this)">
+            <img src="scissors.jpg" alt="scissors" id="scissors" width="150" height="150" onclick="rpsGame(this)">
+        </div>
+    </div>
+
+    <div class="container-1">
+        <h2 class="change-my-color">challenge 3: change color of all buttons</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="reset">reset</option>
+                </select>
+            </form>
+
+            <button class="primary">Wee</button>
+            <button class="danger">Yahoo</button>
+            <button class="warning">Google</button>
+            <button class="success">Facebook</button>
+        </div>
+    </div>
+
+    <div class="container-2">
+            <h2>Fast & Curious Challenge: BlackJack</h2>
+            <h3 class="heading-3"><span id="blackjack-result"> Lets Play</span></h3>
+       
+        <div class="flex-blackjack-row-1">
+            <div id="your-box">
+                <h1>You: <span id="your-blackjack-result">0</span></h1>
+            </div>
+
+            <div id="dealer-box">
+                <h1> Dealer: <span id="dealer-blackjack-result">0</span></h1>
+            </div>
+        </div>
+
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button class="primary" id="blackjack-hit-button">Hit</button>
+                <button class="warning" id="blackjack-stand-button">Stand</button>
+                <button class="danger" id="blackjack-deal-button">Deal</button>
+            </div>
+        </div>
+
+        <div class="flex-blackjack-row-3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

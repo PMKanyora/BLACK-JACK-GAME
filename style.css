@@ -1,0 +1,171 @@
+
+
+.one {
+    margin-right: 30px;
+    background-color: green;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+.two {
+    background-color: red;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.cen, .container, .container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 90%;
+
+    border: 1px solid gray;
+    margin:30px 70px;
+    /*background-color: grey;*/
+
+}
+
+#flex-box-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 90%;
+
+}
+
+.btn {
+    border-top: 1px solid black;
+     color: #fff;border-bottom: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0 10px 50px rgba(37 , 50, 233, 1);
+}
+
+.flex-box-rps img {
+    padding: 20px;
+}
+
+.primary{
+    background-color: blue;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+.danger{
+    background-color: red;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+.warning{
+    background-color: yellow;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+.success{
+    background-color: green;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.flex-box-pick-color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 50px;
+    width: 90%;
+
+}
+
+.container-2{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid goldenrod;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid goldenrod;
+
+    background-color: rgb(7, 61, 7);
+    color: #fff;
+
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid goldenrod;
+    height: 350px;
+    flex: 1;
+}
+
+.flex-blackjack-row-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid goldenrod;
+    padding: 20px 0;
+
+}
+
+.flex-blackjack-row-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid goldenrod;
+    padding: 20px 0;
+
+}
+
+.flex-blackjack-row-2 button {
+    padding: 10px 20px;
+}
+ table, th, td {
+     padding: 8px;
+     border: 1px solid black;
+ }
+
+ #your-box img, #dealer-box img{
+    width: 100px;
+    height: 120px;
+    padding: 10px;
+ }
